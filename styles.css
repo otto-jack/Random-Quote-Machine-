@@ -1,0 +1,53 @@
+
+
+#wrapper {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  min-height: 100vh; /* Ensures the container spans the entire viewport height */
+  padding-top: 20vh; /* Adjust as needed to add space from the top */
+}
+
+#quote-box{
+  //display: flex;
+  justify-content: center;
+  //align-items: center;
+  background-color: white;
+  border-radius: 5px;
+  width: 450px;
+ // margin: 0 auto; 
+
+  overflow: hidden;
+  padding:20px;
+
+}
+
+#text {
+  font-size:16px;
+  font-family: 'Raleway', sans-serif;
+}
+
+#quote-box p {
+  text-align: right;
+  font-size:10px
+}
+
+#tweet-quote {
+  padding: 10px;
+  font-size:20px;
+
+  border:5px;
+  background-color:green;
+  border-radius: 8px;
+}
+
+#tweet-quote i{
+  color:white
+}
+
+#new-quote {
+  text-align: right;
+  background-color:green;
+   margin-left: auto;
+  right: 0; 
+}
